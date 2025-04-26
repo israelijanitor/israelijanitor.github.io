@@ -62,14 +62,14 @@ span.p-book-inline-title {
     }
     
     h3.post-ch-title {
-        padding-left: 10%;
+        padding-left: 5%;
         font-size: 24px;
     }
     
     div.post-block {
         font-size: 20px;
-        padding-bottom: 10px;
-        padding-left: 15%;
-        padding-right: 15%
+        padding-bottom: 15px;
+        padding-left: 7%;
+        padding-right: 7%
     }
 }
