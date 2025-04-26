@@ -30,47 +30,44 @@ span.p-book-inline-title {
     font-style: italic;
 }
 
-@media only screen and (min-width: 600px) {
-    h1.post-title {
-        font-size: 30px;
-    }
-    
-    h2.post-subtitle {
-        font-size: 26px;
-    }
-    
-    h3.post-ch-title {
-        padding-left: 5%;
-        font-size: 24px;
-    }
-    
-    div.post-block {
-        font-size: 20px;
-        padding-bottom: 15px;
-        padding-left: 7%;
-        padding-right: 7%
-    }
+h1.post-title {
+    font-size: 24px;
 }
 
-@media only screen and (min-width: 768px) {
+h2.post-subtitle {
+    font-size: 22px;
+}
+
+h3.post-ch-title {
+    padding-left: 17%;
+    font-size: 20px;
+}
+
+div.post-block {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%
+}
+
+@media (pointer: coarse)  {
     h1.post-title {
         font-size: 24px;
     }
     
     h2.post-subtitle {
-        font-size: 22px;
+        font-size: 12px;
     }
-    
-    h3.post-ch-title {
-        padding-left: 17%;
-        font-size: 20px;
-    }
-    
+
     div.post-block {
         font-size: 16px;
-        padding-bottom: 10px;
-        padding-left: 20%;
-        padding-right: 20%
+        padding-bottom: 30px;
+        padding-left: 7%;
+        padding-right: 5%
+    }
+
+    h3.post-ch-title {
+        padding-left: 5%;
+        font-size: 20px;
     }
 }
-
